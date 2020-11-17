@@ -111,6 +111,13 @@ Compiling
 
 Compiling requires using CMake 3.1 or newer. GCC and Clang are both known to work to compile mGBA, but Visual Studio 2013 and older are known not to work. Support for Visual Studio 2015 and newer is coming soon.
 
+#### Build for Ubuntu based systems for RG351P use in Retroarch (64 bit)
+
+git clone https://github.com/christianhaitian/mgba.git
+cd mgba
+cmake .
+make -f Makefile.libretro -j$(nproc)
+
 #### Docker building
 
 The recommended way to build for most platforms is to use Docker. Several Docker images are provided that contain the requisite toolchain and dependencies for building mGBA across several platforms.
