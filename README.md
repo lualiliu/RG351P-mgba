@@ -10,6 +10,7 @@ Up-to-date news and downloads can be found at [mgba.io](https://mgba.io/).
 Features
 --------
 
+- Added rumble support for Anbernic RG351P.
 - Highly accurate Game Boy Advance hardware support[<sup>[1]</sup>](#missing).
 - Game Boy/Game Boy Color hardware support.
 - Fast emulation. Known to run at full speed even on low end hardware, such as netbooks.
