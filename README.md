@@ -114,10 +114,11 @@ Compiling requires using CMake 3.1 or newer. GCC and Clang are both known to wor
 
 #### Build for Ubuntu based systems for RG351P use in Retroarch (64 bit)
 
-git clone https://github.com/christianhaitian/mgba.git
-cd mgba
-cmake .
-make -f Makefile.libretro -j$(nproc)
+`git clone https://github.com/christianhaitian/mgba.git` \
+`cd mgba` \
+`cmake .` \
+`make clean` \
+`make -f Makefile.libretro -j$(nproc)`
 
 #### Docker building
 
